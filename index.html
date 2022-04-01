@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Score Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home-div">
+        <p>Home</p>
+        <p id="home-points" class="score">0</p>
+        <button onclick="addOneHome()">+1</button>
+        <button onclick="addTwoHome()">+2</button>
+        <button onclick="addThreeHome()">+3</button>
+    </div>
+    <div class="away-div">
+        <p>Away</p>
+        <p id="away-points" class="score">0</p>
+        <button onclick="addOneAway()">+1</button>
+        <button onclick="addTwoAway()">+2</button>
+        <button onclick="addThreeAway()">+3</button>
+    </div>
+    <button class="reset" onclick="resetPoints()">RESET</button>
+    <script src="index.js"></script>
+</body>
+</html>

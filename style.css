@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("images/basketball-court.jpg");
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    font-size: 3rem;
+}
+
+button {
+    display: block;
+    margin: 0.5rem auto;
+    width: 8rem;
+    height: 3rem;
+    background-color: orange;
+    border: 2px solid transparent;
+    font-weight: bold;
+}
+
+button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.reset {
+    margin-top: 3rem;
+    grid-column: span 2;
+}
+
+.reset:hover {
+    background-color: red;
+    cursor: pointer;
+}
